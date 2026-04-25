@@ -1,6 +1,6 @@
 
 import React from 'react'
-import { myimg } from './mypro.jpeg';
+
 import './profile.css';
 
 function Profile() {

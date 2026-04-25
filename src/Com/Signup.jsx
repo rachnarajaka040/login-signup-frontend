@@ -1,7 +1,7 @@
 import React from "react";
 import "./Signup.css";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import axios from "axios";
 function Signup() {
   const [formData, setFormData] = useState({
@@ -11,7 +11,7 @@ function Signup() {
     phoneNumber: "",
     companyName: "",
   });
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   const handleChange = (event) => {
     const { name, value, type } = event.target;
